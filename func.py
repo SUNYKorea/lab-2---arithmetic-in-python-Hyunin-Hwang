@@ -13,16 +13,16 @@ def div(x, y)
     return x/y
 
 def mult (x, y)
-    return xy
+    return x*y
 
 def exp (x)
-   return x^2
+   return x**2
 
 def neg(x): 
     return -x
 
 def sqrt(x):
-    return x^(1/2)
+    return x**(1/2)
 
 
 # -------------------------------------- Task 2 -----------------------------------
@@ -34,13 +34,10 @@ a = 1
 b = -3
 c = 1
 
-d= exp(b)-mult(4, a, c)
-return (b^2)-4ac
-return |9-4|
-return |5|
+d = sub((exp(b), mult(4, mult(a, c)))
 
-x1 = +sqrt(5) # TODO: write a code to compute the first root of the quadratic equation
-x2 = -sqrt(5) # TODO: then do the same for the second root
+x1 = div(add(neg(b), sqrt(d)),mult(2,a))  # TODO: write a code to compute the first root of the quadratic equation
+x2 = div(sub(neg(b), sqrt(d)),mult(2,a)) # TODO: then do the same for the second root
 # Note: Make sure to remove the ellipsis (...) when you're writing your code
 
 print("First root:" + str(x1))
