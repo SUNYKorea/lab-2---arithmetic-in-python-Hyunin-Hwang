@@ -6,11 +6,24 @@ def add(x, y):
 #       neg() should return the negation of the given number, and sqrt() should
 #       return the square root of the given number. 
 
-def neg(x):
-    test = 1 # fill here
+def sub(x, y)
+    return x - y 
+
+def div(x, y)
+    return x/y
+
+def mult (x, y)
+    return xy
+
+def exp (x)
+   return x^2
+
+def neg(x): 
+    return -x
 
 def sqrt(x):
-    ... # fill here
+    return x^(1/2)
+
 
 # -------------------------------------- Task 2 -----------------------------------
 
@@ -21,8 +34,13 @@ a = 1
 b = -3
 c = 1
 
-x1 = ... # TODO: write a code to compute the first root of the quadratic equation
-x2 = ... # TODO: then do the same for the second root
+d= exp(b)-mult(4, a, c)
+return (b^2)-4ac
+return |9-4|
+return |5|
+
+x1 = +sqrt(5) # TODO: write a code to compute the first root of the quadratic equation
+x2 = -sqrt(5) # TODO: then do the same for the second root
 # Note: Make sure to remove the ellipsis (...) when you're writing your code
 
 print("First root:" + str(x1))
